@@ -1,0 +1,230 @@
+    ©°©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©´
+    ©¦               ? MobaXterm Professional Edition v24.4 ?               ©¦
+    ©¦               (SSH client, X server and network tools)               ©¦
+    ©¦                                                                      ©¦
+    ©¦ ? SSH session to root@192.4.14.6                                     ©¦
+    ©¦   ? Direct SSH      :  ?                                             ©¦
+    ©¦   ? SSH compression :  ?                                             ©¦
+    ©¦   ? SSH-browser     :  ?                                             ©¦
+    ©¦   ? X11-forwarding  :  ?  (disabled or not supported by server)      ©¦
+    ©¦                                                                      ©¦
+    ©¦ ? For more info, ctrl+click on help or visit our website.            ©¦
+    ©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¼
+
+Welcome to Linux.
+
+Mem: 99104K used, 370628K free, 0K shrd, 940K buff, 18412K cached
+CPU0:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+CPU1:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+CPU2:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+CPU3:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 2.13 1.95 1.23 2/87 2250
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+ 2248  2234 root     R     3756  0.8   1  0.0 top -H
+ 2231  1609 root     S     5816  1.2   3  0.0 sshd: root@pts/1
+ 1798  1609 root     S     5524  1.1   3  0.0 sshd: root@notty
+ 2233  1609 root     S     5524  1.1   3  0.0 sshd: root@notty
+ 1609     1 root     S     5392  1.1   2  0.0 sshd: /usr/local/sbin/sshd -f /usr/local/etc/sshd_config [listener] 0 of 10-100 startups
+ 1800  1798 root     S     4776  1.0   2  0.0 /usr/local/libexec/sftp-server
+ 2243  2233 root     S     4648  0.9   1  0.0 /usr/local/libexec/sftp-server
+    1     0 root     S     3756  0.8   2  0.0 init
+ 1670     1 root     S     3756  0.8   3  0.0 {running.sh} /bin/sh /app/running.sh
+ 1671     1 root     S     3756  0.8   1  0.0 -sh
+ 1600     1 root     S     3756  0.8   2  0.0 telnetd
+ 2234  2231 root     S     3756  0.8   3  0.0 -sh
+ 2250  1670 root     S     3624  0.7   0  0.0 sleep 1
+  926     1 root     S     2472  0.5   2  0.0 udevd --daemon
+  176     2 root     IW       0  0.0   0  0.0 [kworker/u8:3-ev]
+   36     2 root     IW       0  0.0   2  0.0 [kworker/u8:2-ev]
+ 1514     2 root     DW       0  0.0   3  0.0 [ipcm-discovery]
+ 1452     2 root     DW       0  0.0   0  0.0 [vdec_thread]
+ 1512     2 root     SW       0  0.0   2  0.0 [ipcm-recv]
+ 2139     2 root     IW       0  0.0   2  0.0 [kworker/u8:0-ev]
+    5     2 root     IW       0  0.0   0  0.0 [kworker/0:0-mm_]
+   38     2 root     IW       0  0.0   1  0.0 [kworker/1:1-mm_]
+   10     2 root     IW       0  0.0   0  0.0 [rcu_sched]
+    9     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+   58     2 root     IW       0  0.0   3  0.0 [kworker/3:1-mm_]
+   16     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+   51     2 root     IW       0  0.0   2  0.0 [kworker/2:1-eve]
+  900     2 root     IW<      0  0.0   0  0.0 [kworker/0:1H-mm]
+  910     2 root     SW       0  0.0   2  0.0 [ubi_bgt0d]
+  912     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+ 1656     2 root     IW<      0  0.0   2  0.0 [kworker/2:1H-kb]
+    2     0 root     SW       0  0.0   2  0.0 [kthreadd]
+    3     2 root     IW<      0  0.0   0  0.0 [rcu_gp]
+    4     2 root     IW<      0  0.0   0  0.0 [rcu_par_gp]
+    6     2 root     IW<      0  0.0   0  0.0 [kworker/0:0H-kb]
+    8     2 root     IW<      0  0.0   0  0.0 [mm_percpu_wq]
+   11     2 root     IW       0  0.0   0  0.0 [rcu_bh]
+   12     2 root     SW       0  0.0   0  0.0 [migration/0]
+   13     2 root     SW       0  0.0   0  0.0 [cpuhp/0]
+   14     2 root     SW       0  0.0   1  0.0 [cpuhp/1]
+   15     2 root     SW       0  0.0   1  0.0 [migration/1]
+   18     2 root     IW<      0  0.0   1  0.0 [kworker/1:0H-kb]
+   19     2 root     SW       0  0.0   2  0.0 [cpuhp/2]
+   20     2 root     SW       0  0.0   2  0.0 [migration/2]
+   21     2 root     SW       0  0.0   2  0.0 [ksoftirqd/2]
+   24     2 root     SW       0  0.0   3  0.0 [cpuhp/3]
+   25     2 root     SW       0  0.0   3  0.0 [migration/3]
+   26     2 root     SW       0  0.0   3  0.0 [ksoftirqd/3]
+   27     2 root     IW       0  0.0   3  0.0 [kworker/3:0-mm_]
+   28     2 root     IW<      0  0.0   3  0.0 [kworker/3:0H-kb]
+   29     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+   30     2 root     IW<      0  0.0   3  0.0 [netns]
+  341     2 root     SW       0  0.0   0  0.0 [khungtaskd]
+Mem: 99212K used, 370520K free, 0K shrd, 940K buff, 18412K cached
+CPU0:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+CPU1:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+CPU2:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+CPU3:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 2.12 1.95 1.24 2/87 2253
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+ 2231  1609 root     S     5816  1.2   3  0.0 sshd: root@pts/1
+ 2248  2234 root     R     3756  0.8   1  0.0 top -H
+ 1514     2 root     DW       0  0.0   2  0.0 [ipcm-discovery]
+ 1798  1609 root     S     5524  1.1   3  0.0 sshd: root@notty
+ 2233  1609 root     S     5524  1.1   3  0.0 sshd: root@notty
+ 1609     1 root     S     5392  1.1   2  0.0 sshd: /usr/local/sbin/sshd -f /usr/local/etc/sshd_config [listener] 0 of 10-100 startups
+ 1800  1798 root     S     4776  1.0   2  0.0 /usr/local/libexec/sftp-server
+ 2243  2233 root     S     4648  0.9   1  0.0 /usr/local/libexec/sftp-server
+    1     0 root     S     3756  0.8   2  0.0 init
+ 1670     1 root     S     3756  0.8   3  0.0 {running.sh} /bin/sh /app/running.sh
+ 1671     1 root     S     3756  0.8   1  0.0 -sh
+ 1600     1 root     S     3756  0.8   2  0.0 telnetd
+ 2234  2231 root     S     3756  0.8   3  0.0 -sh
+ 2253  1670 root     S     3624  0.7   0  0.0 sleep 2
+  926     1 root     S     2472  0.5   2  0.0 udevd --daemon
+  176     2 root     IW       0  0.0   0  0.0 [kworker/u8:3-ev]
+   36     2 root     IW       0  0.0   2  0.0 [kworker/u8:2-ev]
+ 1452     2 root     DW       0  0.0   0  0.0 [vdec_thread]
+ 1512     2 root     SW       0  0.0   3  0.0 [ipcm-recv]
+ 2139     2 root     IW       0  0.0   2  0.0 [kworker/u8:0-fl]
+    5     2 root     IW       0  0.0   0  0.0 [kworker/0:0-eve]
+   38     2 root     IW       0  0.0   1  0.0 [kworker/1:1-eve]
+   10     2 root     IW       0  0.0   0  0.0 [rcu_sched]
+    9     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+   58     2 root     IW       0  0.0   3  0.0 [kworker/3:1-mm_]
+   16     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+   51     2 root     IW       0  0.0   2  0.0 [kworker/2:1-eve]
+  900     2 root     IW<      0  0.0   0  0.0 [kworker/0:1H-mm]
+  910     2 root     SW       0  0.0   2  0.0 [ubi_bgt0d]
+  912     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+ 1656     2 root     IW<      0  0.0   2  0.0 [kworker/2:1H-kb]
+    2     0 root     SW       0  0.0   2  0.0 [kthreadd]
+    3     2 root     IW<      0  0.0   0  0.0 [rcu_gp]
+    4     2 root     IW<      0  0.0   0  0.0 [rcu_par_gp]
+    6     2 root     IW<      0  0.0   0  0.0 [kworker/0:0H-kb]
+    8     2 root     IW<      0  0.0   0  0.0 [mm_percpu_wq]
+   11     2 root     IW       0  0.0   0  0.0 [rcu_bh]
+   12     2 root     SW       0  0.0   0  0.0 [migration/0]
+   13     2 root     SW       0  0.0   0  0.0 [cpuhp/0]
+   14     2 root     SW       0  0.0   1  0.0 [cpuhp/1]
+   15     2 root     SW       0  0.0   1  0.0 [migration/1]
+   18     2 root     IW<      0  0.0   1  0.0 [kworker/1:0H-kb]
+   19     2 root     SW       0  0.0   2  0.0 [cpuhp/2]
+   20     2 root     SW       0  0.0   2  0.0 [migration/2]
+   21     2 root     SW       0  0.0   2  0.0 [ksoftirqd/2]
+   24     2 root     SW       0  0.0   3  0.0 [cpuhp/3]
+   25     2 root     SW       0  0.0   3  0.0 [migration/3]
+   26     2 root     SW       0  0.0   3  0.0 [ksoftirqd/3]
+   27     2 root     IW       0  0.0   3  0.0 [kworker/3:0-mm_]
+   28     2 root     IW<      0  0.0   3  0.0 [kworker/3:0H-kb]
+   29     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+   30     2 root     IW<      0  0.0   3  0.0 [netns]
+  341     2 root     SW       0  0.0   0  0.0 [khungtaskd]
+
+~ # top -bH
+Mem: 99304K used, 370428K free, 0K shrd, 940K buff, 18440K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 2.11 1.97 1.28 2/87 2281
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+ 2231  1609 root     S     5816  1.2   1  0.0 sshd: root@pts/1
+ 1798  1609 root     S     5524  1.1   3  0.0 sshd: root@notty
+ 2233  1609 root     S     5524  1.1   3  0.0 sshd: root@notty
+ 1609     1 root     S     5392  1.1   2  0.0 sshd: /usr/local/sbin/sshd -f /usr/local/etc/sshd_config [listener] 0 of 10-100 startups
+ 1800  1798 root     S     4776  1.0   2  0.0 /usr/local/libexec/sftp-server
+ 2243  2233 root     S     4648  0.9   1  0.0 /usr/local/libexec/sftp-server
+    1     0 root     S     3756  0.8   2  0.0 init
+ 1670     1 root     S     3756  0.8   3  0.0 {running.sh} /bin/sh /app/running.sh
+ 1671     1 root     S     3756  0.8   1  0.0 -sh
+ 1600     1 root     S     3756  0.8   2  0.0 telnetd
+ 2234  2231 root     S     3756  0.8   3  0.0 -sh
+ 2281  2234 root     R     3756  0.8   0  0.0 top -bH
+ 2280  1670 root     S     3624  0.7   1  0.0 sleep 2
+  926     1 root     S     2472  0.5   2  0.0 udevd --daemon
+  176     2 root     IW       0  0.0   0  0.0 [kworker/u8:3-ev]
+   36     2 root     IW       0  0.0   2  0.0 [kworker/u8:2-ev]
+ 1514     2 root     DW       0  0.0   2  0.0 [ipcm-discovery]
+ 1452     2 root     DW       0  0.0   2  0.0 [vdec_thread]
+ 1512     2 root     SW       0  0.0   1  0.0 [ipcm-recv]
+ 2139     2 root     IW       0  0.0   0  0.0 [kworker/u8:0-ev]
+    5     2 root     IW       0  0.0   0  0.0 [kworker/0:0-mm_]
+   38     2 root     IW       0  0.0   1  0.0 [kworker/1:1-mm_]
+   10     2 root     IW       0  0.0   3  0.0 [rcu_sched]
+    9     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+   58     2 root     IW       0  0.0   3  0.0 [kworker/3:1-mm_]
+   16     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+   51     2 root     IW       0  0.0   2  0.0 [kworker/2:1-eve]
+  900     2 root     IW<      0  0.0   0  0.0 [kworker/0:1H-mm]
+  910     2 root     SW       0  0.0   2  0.0 [ubi_bgt0d]
+  912     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+ 1656     2 root     IW<      0  0.0   2  0.0 [kworker/2:1H-kb]
+    2     0 root     SW       0  0.0   2  0.0 [kthreadd]
+    3     2 root     IW<      0  0.0   0  0.0 [rcu_gp]
+    4     2 root     IW<      0  0.0   0  0.0 [rcu_par_gp]
+    6     2 root     IW<      0  0.0   0  0.0 [kworker/0:0H-kb]
+    8     2 root     IW<      0  0.0   0  0.0 [mm_percpu_wq]
+   11     2 root     IW       0  0.0   0  0.0 [rcu_bh]
+   12     2 root     SW       0  0.0   0  0.0 [migration/0]
+   13     2 root     SW       0  0.0   0  0.0 [cpuhp/0]
+   14     2 root     SW       0  0.0   1  0.0 [cpuhp/1]
+   15     2 root     SW       0  0.0   1  0.0 [migration/1]
+   18     2 root     IW<      0  0.0   1  0.0 [kworker/1:0H-kb]
+   19     2 root     SW       0  0.0   2  0.0 [cpuhp/2]
+   20     2 root     SW       0  0.0   2  0.0 [migration/2]
+   21     2 root     SW       0  0.0   2  0.0 [ksoftirqd/2]
+   24     2 root     SW       0  0.0   3  0.0 [cpuhp/3]
+   25     2 root     SW       0  0.0   3  0.0 [migration/3]
+   26     2 root     SW       0  0.0   3  0.0 [ksoftirqd/3]
+   27     2 root     IW       0  0.0   3  0.0 [kworker/3:0-mm_]
+   28     2 root     IW<      0  0.0   3  0.0 [kworker/3:0H-kb]
+   29     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+   30     2 root     IW<      0  0.0   3  0.0 [netns]
+  341     2 root     SW       0  0.0   0  0.0 [khungtaskd]
+  342     2 root     SW       0  0.0   3  0.0 [oom_reaper]
+  343     2 root     IW<      0  0.0   1  0.0 [writeback]
+  345     2 root     SW       0  0.0   3  0.0 [kcompactd0]
+  346     2 root     SWN      0  0.0   0  0.0 [ksmd]
+  347     2 root     IW<      0  0.0   0  0.0 [crypto]
+  349     2 root     IW<      0  0.0   2  0.0 [kblockd]
+  358     2 root     SW       0  0.0   3  0.0 [spi0]
+  363     2 root     SW       0  0.0   2  0.0 [spi1]
+  368     2 root     SW       0  0.0   3  0.0 [spi2]
+  372     2 root     SW       0  0.0   0  0.0 [spi3]
+  395     2 root     IW<      0  0.0   3  0.0 [devfreq_wq]
+  484     2 root     IW<      0  0.0   2  0.0 [rpciod]
+  485     2 root     IW<      0  0.0   0  0.0 [kworker/u9:0]
+  486     2 root     IW<      0  0.0   1  0.0 [xprtiod]
+  498     2 root     SW       0  0.0   3  0.0 [kswapd0]
+  574     2 root     IW<      0  0.0   3  0.0 [nfsiod]
+  593     2 root     IW<      0  0.0   1  0.0 [xfsalloc]
+  594     2 root     IW<      0  0.0   2  0.0 [xfs_mru_cache]
+  845     2 root     SW       0  0.0   0  0.0 [irq/48-mmc0]
+  848     2 root     IW       0  0.0   0  0.0 [kworker/0:2-eve]
+  849     2 root     SW       0  0.0   0  0.0 [irq/49-mmc1]
+  852     2 root     IW       0  0.0   2  0.0 [kworker/2:2-eve]
+  853     2 root     SW       0  0.0   0  0.0 [irq/50-mmc2]
+  888     2 root     IW<      0  0.0   3  0.0 [ipv6_addrconf]
+  890     2 root     IW<      0  0.0   3  0.0 [mmc_complete]
+ 1386     2 root     SW       0  0.0   0  0.0 [irq/59-VICAP_0]
+ 1505     2 root     SW       0  0.0   1  0.0 [main_hwts]
+ 1506     2 root     SW       0  0.0   3  0.0 [profile_process]
+ 1507     2 root     SW       0  0.0   0  0.0 [profile_buffer]
+ 1658     2 root     IW<      0  0.0   3  0.0 [kworker/3:1H-kb]
+ 1697     2 root     IW<      0  0.0   1  0.0 [kworker/1:1H]
+ 1815     2 root     IW<      0  0.0   2  0.0 [kworker/2:2H]
+ 1993     2 root     IW       0  0.0   1  0.0 [kworker/1:0-mm_]
+ 2227     2 root     IW       0  0.0   1  0.0 [kworker/1:2-eve]
+^C
+~ #

@@ -1,0 +1,20 @@
+ls -R -a -l	//递归查看子目录所有内容
+
+echo "==============uptime show==============" >> /mnt/log/up_log.txt
+date  > /mnt/log/up_log.txt
+uptime >> /mnt/log/up_log.txt
+echo "==============内核信息==============" >> /mnt/log/up_log.txt
+uname -a >> /mnt/log/up_log.txt
+busybox >> /mnt/log/up_log.txt
+sysctl -a >> /mnt/log/up_log.txt
+echo "==============IP route show==============" >> /mnt/log/up_log.txt
+iproute >> /mnt/log/up_log.txt
+echo "==============cat ifconfig==============" >> /mnt/log/up_log.txt
+ifconfig >> /mnt/log/up_log.txt
+echo "==============cat usercfg==============" >> /mnt/log/up_log.txt
+cat /app/usercfg >> /mnt/log/up_log.txt
+echo "==============cat mount==============" >> /mnt/log/up_log.txt
+mount >> /mnt/log/up_log.txt
+echo "  " 
+echo "==============cat dmesg==============" >> /mnt/log/up_log.txt
+dmesg -c >> /mnt/log/up_log.txt
